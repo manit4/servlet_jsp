@@ -11,5 +11,14 @@ public class UserService {
 		repository.saveuser(to);
 		
 	}
+	
+	public UserTO validate(String username, String password) {
+		
+		UserRepository repository = new UserRepository();
+		
+		UserTO to = repository.getLoginStatus(username, password);
+		
+		return to;
+	}
 
 }

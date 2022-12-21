@@ -16,20 +16,27 @@
 <body>
 	<H1 style="margin-left: 350px; color: Red">Welcome to Winter
 		BookShop Application</H1>
-	<h3 style="margin-left: 480px; margin-top: 50px; color: blue;">Provide your Credentials</h3>
-<div style="margin-left: 500px; margin-right: 500px; margin-top: 50px">
-	<div class="mb-3">
-		<label for="exampleFormControlInput1" class="form-label">Username</label> <input type="email" class="form-control"
-			id="exampleFormControlInput1" placeholder="Enter your Username">
-	</div>
-	<div class="mb-3">
-		<label for="exampleFormControlInput1" class="form-label">Password</label> <input type="email" class="form-control"
-			id="exampleFormControlInput1" placeholder="Enter your Password">
-	</div>
-	<input style="margin-left: 90px" type="submit" class="btn btn-primary"><br><br>
-	
-	<a style="margin-left: 55px" href="registration_page.jsp">New User, Register here!!</a>
-	
+	<h3 style="margin-left: 480px; margin-top: 50px; color: blue;">Provide
+		your Credentials</h3>
+		
+		<form action="login" method="post">
+	<div style="margin-left: 500px; margin-right: 500px; margin-top: 50px">
+		<div class="mb-3">
+			<label for="exampleFormControlInput1" class="form-label">Username</label>
+			<input type="text" class="form-control"
+				id="exampleFormControlInput1" placeholder="Enter your Username" name="uname">
+		</div>
+		<div class="mb-3">
+			<label for="exampleFormControlInput1" class="form-label">Password</label>
+			<input type="password" class="form-control"
+				id="exampleFormControlInput1" placeholder="Enter your Password" name="pwd">
+		</div>
+		<input style="margin-left: 90px" type="submit" class="btn btn-primary"><br>
+		
+		</form>
+		<br> <a style="margin-left: 55px" href="registration_page.jsp">New
+			User, Register here!!</a>
+
 	</div>
 </body>
 </html>
