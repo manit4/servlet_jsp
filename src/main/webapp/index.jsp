@@ -35,7 +35,7 @@
 		
 		</form>
 		<br> <a style="margin-left: 55px" href="registration_page.jsp">New
-			User, Register here!!!!..</a>
+			User, Register here!!!!....,,</a>
 
 	</div>
 </body>
